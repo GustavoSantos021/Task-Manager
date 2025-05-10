@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"; 
-import TaskPage from "./pages/taskPage.jsx";  // Adicione a importação do TaskPage
+import TaskPage from "./pages/taskPage.jsx";  
 
 // eslint-disable-next-line react-refresh/only-export-components
 function Root() {
