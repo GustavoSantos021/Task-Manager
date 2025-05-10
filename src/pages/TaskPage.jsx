@@ -10,14 +10,14 @@ function TaskPage() {
   return (
     <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <div className="flex justify-center relative  ">
+        <div className="flex justify-center relative">
           <button
             onClick={() => navigate(`/`)}
             className="absolute left-0 top-0 bottom-0 text-white"
           >
             <ArrowLeft />
           </button>
-          <h1 className="text-3xl text-slate-100 font-bold text-center ">
+          <h1 className="text-3xl text-slate-100 font-bold text-center">
             Task Details
           </h1>
         </div>
