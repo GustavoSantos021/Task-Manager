@@ -28,6 +28,6 @@ function TaskPage() {
       </div>
     </div>
   );
-}
+};
 
 export default TaskPage;
