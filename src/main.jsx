@@ -6,7 +6,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"; 
-import TaskPage from "./pages/taskPage.jsx";  
+import TaskPage from "./pages/taskPage.jsx";
+ 
 
 // eslint-disable-next-line react-refresh/only-export-components
 function Root() {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/task",
-    element: <TaskPage />,  // Agora TaskPage está sendo utilizado corretamente
+    element: <TaskPage />,  
   },
 ]);
 
