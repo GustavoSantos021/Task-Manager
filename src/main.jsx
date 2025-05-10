@@ -12,7 +12,7 @@ import TaskPage from "./pages/taskPage.jsx";
 // eslint-disable-next-line react-refresh/only-export-components
 function Root() {
   return <App />;
-}
+};
 
 const router = createBrowserRouter([
   {
