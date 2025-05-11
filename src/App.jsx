@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import AddTask from "./assets/components/AddTask";
-import Tasks from "./assets/components/tasks";
+import Tasks from "./assets/components/Tasks";
 
 function App() {
   const [tasks, setTasks] = useState(() => {
