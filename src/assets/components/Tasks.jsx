@@ -2,6 +2,8 @@ import { ChevronRight } from "lucide-react";
 import { Trash2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
+import { Check } from 'lucide-react';
+
 
 function Tasks(props) {
   const navigate = useNavigate();
@@ -19,10 +21,11 @@ function Tasks(props) {
         <li key={task.id} className="flex gap-2">
           <button
             onClick={() => props.onTaskClick(task.id)}
-            className={`w-full text-left text-white p-2 rounded-md ${
+            className={`w-full text-left text-white p-2 flex items-center rounded-md ${
               task.isCompleted ? "line-through bg-emerald-400" : "bg-slate-400"
             }`}
           >
+            {task.isCompleted && <Check />}
             {task.title}
           </button>
 
